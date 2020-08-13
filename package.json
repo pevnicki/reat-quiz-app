@@ -66,7 +66,7 @@
   },
   "main": "server.js",
   "scripts": {
-    "heroku-postbuild": "npm install",
+    "heroku-postbuild": "npm install && npm run build",
     "start": "node server.js",
     "start-react": "node scripts/start.js",
     "build": "node scripts/build.js",
